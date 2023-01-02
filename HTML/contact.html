@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	
+	<title>Dulex Machines Pvt Ltd Ltd</title>
+	<link rel="icon" href="/images/logo1.jpeg" type="image/icon type">
+	<meta charset="utf-8">	
+	
+	<!-- <link rel="stylesheet" href="css/styles-mobile.css " media="screen and (min-width: 320px)">	 -->
+	<link rel="stylesheet" href="/css/contact.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="jquery.validate.min.js"></script>
+	<script src="additional-methods.min.js"></script>	
+	<script src="/JS/contact.js"></script>
+	
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<div class="logo">
+			<a href="index.html"><img src="/images/Logo V.jfif" alt="Dulex Machines PVT LTD" class="logo-img"></a>
+		</div> <br><br><br><br>
+		<div class="nav-link">
+			<a href="index.html" class="text-decore">Home</a> &nbsp; &nbsp; 
+			<a href="about.html" class="text-decore">About</a> &nbsp; &nbsp; 
+			<a href="team.html" class="text-decore">our team</a> &nbsp; &nbsp;
+			<a href="Specials.html" class="text-decore">Specials</a> &nbsp; &nbsp; 
+			<a href="training.html" class="text-decore">Training</a> &nbsp; &nbsp; 
+			<a href="media.html" class="text-decore">Media</a> &nbsp; &nbsp; 
+			<a href="contact.html" class="text-decore">Contact Us</a> &nbsp; &nbsp;
+			<li class="dropdown report">
+				<button class="dropbtn text-decore">Reports 
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="Customer.html" target="_blank">Customer</a>
+					<a href="product.html" target="_blank">Products</a>
+					<a href="Customer-Order.html" target="_blank">Customer Order</a>
+					<a href="Inventory.html" target="_blank">Inventory</a>
+				</div>
+			</li>
+		</div>
+		
+	</nav>	
+	
+	
+</head>
+<body>
+	<header>
+		<div class="banner desktop">
+			<img src="/images/contact.jpg" alt="Contact Us" class="banner-img" width="100%" height="600px">
+			
+			
+		</div>
+	</header>
+	<div id="container">
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>	
+			<div class="navigation">
+			</div>
+			<form id="validation" class="ft-fieldset">
+				<fieldset class="contact">
+					<h1>Contact Us:</h1>
+					<div class="row">
+						<div class="address">
+							<h1>Main Branch</h1>							
+							<p>3115 Michigan Avenue<br>
+							Sarnia<br>
+							Ontario<br>
+							N7T2Y6<br>
+							+91 8012456987 phone<br>
+							+1 5198756385 fax<br>
+							
+						</div>
+						<div class="details">
+							<table>
+								<tr>
+									<td width="20%"><label for="fname" >First name:</label></td>
+									<td><input type="text" id="fname" name="fname"  placeholder="First Name" size="20"></td>
+								</tr>
+								<tr>
+									<td><label for="lname">Last name:</label></td>
+									<td><input type="text" id="lname" name="lname" placeholder="Last Name" size="20"></td>
+								</tr>
+								<tr>
+									<td><label for="lname">Gender:</label></td>
+									<td>
+									<input type="radio" id="male" name="gender" value="male">
+									<label for="male">Male</label>
+									<input type="radio" id="female" name="gender" value="female">
+									<label for="female">Female</label>
+									<input type="radio" id="other" name="gender" value="other">
+									<label for="other">Other</label>
+									</td>
+								</tr>
+								
+								<tr>
+									<td><label for="email">Email:</label></td>
+									<td><input placeholder="Email" type="email" id="email" name="email"  autofocus="true" size="20"></td>
+								</tr>
+								
+								<tr>
+									<td><label for="email">City:</label></td>
+									<td><select name="city" id="city">
+											<option	value="Sarnia" selected="selected">Sarnia</option>
+											<option value="Toronto">Toronto</option>
+											<option value="Mississauga">Mississauga</option>
+											<option value="Vancouver">Vancouver</option>											
+										</select>
+									</td>
+								</tr>
+								
+								<tr>
+									<td><label for="lname">Category:</label></td>
+									<td>
+									<input type="checkbox" id="Programmable" name="Programmable" value="Programmable">
+									<label for="Programmable"> Robotic Vaccums</label>
+									<input type="checkbox" id="Manual" name="Manual" value="Manual">
+									<label for="Manual"> Central Vaccum System</label>
+									<input type="checkbox" id="Automatic" name="Automatic" value="Automatic">
+									<label for="Automatic"> Carpet Sweeper</label>
+									<input type="checkbox" id="Embaded" name="Embaded" value="Embaded">
+									<label for="Embaded"> Multi Surface Vaccums</label>
+									<input type="checkbox" id="Embaded" name="Embaded" value="Embaded">
+									<label for="Embaded"> Hard Floor Vaccums</label>
+									</td>
+								</tr>
+								
+								<tr>
+									<td><label for="birthday">Date:</label></td>
+									<td><input type="date" id="prefereddate" name="prefereddate"></td>
+								</tr>								
+								<tr>
+									<td><label for="Notes">Notes:</label></td>
+									<td><textarea maxlength="2" type="textarea" rows="2" cols="40" id="notes" name="notes"> </textarea></td>
+								</tr>				
+
+								<tr rowspan="3" style="text-align:center">
+									<td colspan="2"><input type="submit" value="Submit"> &nbsp; &nbsp <input type="reset" value="reset"></td>
+								</tr>				
+								
+							</table>
+							
+							<br><br>
+							
+						</div>
+					</div>
+				</fieldset>
+				
+				
+		
+		<footer>
+			<p class="footer-text">
+				&copy; Copyright 2021. All Rights Reserved. </br>
+				<a href="mailto:info@dulexmachinespvtltd.com" style=" text-decoration:none; color:#fff">Request information </a></br>
+				Vinod Kumar Yadlapalli &nbsp &nbsp C0838767
+				
+			</p>
+		</footer>
+
+	</div>
+</body>
+</html>

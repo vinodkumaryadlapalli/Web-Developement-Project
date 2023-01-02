@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<script src="http://12.42.204.30:7005/jTable/jquery.jtable.js"></script>
+	<script src="http://12.42.204.30:7005/scripts/helpers.js"></script>
+	<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/red/jtable.css" rel="stylesheet"> 
+
+                                                <!-- Do not change the code above -->
+
+	<link href="Customer Order.css" rel="stylesheet"> <!-- Modify myStyles.css to add additional styles or add your own stylesheet-->
+	<script>
+	$(document).ready(function() {
+		$('#container1').jtable({
+			title : 'List of Products',  <!-- Change title for the output -->
+			paging : true,                    <!-- "true" allows paging through the grid -->
+			pageSize : 11,                    <!-- Specify page size -->
+			sorting : true,                   <!-- "true" allows sorting by columns -->
+			defaultSorting : 'Accessories1_id',   <!-- Default sort column(s) on initial load -->
+			actions : {
+				listAction : 'genJson2.aspx?jtView=ACCES_DATA'  <!-- Change "carsV2" to your view name -->
+			},
+			fields : {                        <!-- Modify the grid components -->
+				accessories1_id : {
+					title : 'Accessories1_id',
+					width : '10%',
+					list : true
+				},
+				battery_type: {
+					title : 'battery_type',
+					width : '20%',
+					list : true
+				},
+
+                body: {
+					title : 'body',
+					width : '10%',
+					list : true
+				},
+				motors : {
+					title : 'motors ',
+					width : '10%',
+					list : true
+				}
+                
+			}
+		});
+		$('#container1').jtable('load');
+	});
+</script>
+<head>
+<body>
+
+	<div id="container1" style="width: 100%;"></div>
+	
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,278 @@
+ {"products":[
+	{
+		"NAME" : "Canister Vaccum Cleaner",
+		"Stock" : "Available",
+		"QuantityOnHand" : "1",
+        "Size" :"Large",
+       "Colour" : "red"
+		
+	},
+    {
+		"NAME" : "Pre Motor",
+		"Stock" : "Available",
+		"QuantityOnHand" : "5",
+        "Size" :"small",
+       "Colour" : "silver"
+		
+	},
+    {
+		"NAME" : "Battery",
+		"Stock" : "Available",
+		"QuantityOnHand" : "20",
+        "Size" :"Medium",
+       "Colour" : "Black"
+		
+	},
+    {
+		"NAME" : "Back Pack Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "5",
+        "Size" :"Large",
+       "Colour" : "Grey"
+		
+	},
+    {
+		"NAME" : "Swivel Neck Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "10",
+        "Size" :"Small",
+       "Colour" : "white"
+		
+	},
+    {
+		"NAME" : "Body Frame",
+		"Stock" : "Available",
+		"QuantityOnHand" : "12",
+        "Size" :"Large",
+       "Colour" : "Brown"
+		
+	},
+    {
+		"NAME" : "Handeled Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "10",
+        "Size" :"Medium",
+       "Colour" : "red"
+		
+	},
+    {
+		"NAME" : "Back Pack Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "16",
+        "Size" :"Large",
+       "Colour" : "Green"
+		
+	},
+    {
+		"NAME" : "Robotic Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "20",
+        "Size" :"Small",
+       "Colour" : "Blue"
+		
+	},
+    {
+		"NAME" : "Exhaust",
+		"Stock" : "Available",
+		"QuantityOnHand" : "30",
+        "Size" :"Large",
+       "Colour" : "Black"
+		
+	},
+    {
+		"NAME" : "Carpet Sweeper",
+		"Stock" : "Available",
+		"QuantityOnHand" : "8",
+        "Size" :"Large",
+       "Colour" : "Orange"
+		
+	},
+    {
+		"NAME" : "Multi Surface Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "14",
+        "Size" :"Medium",
+       "Colour" : "Yellow"
+		
+	},
+    {
+		"NAME" : "Bagged Vaccums",
+		"Stock" : "Out Of Stock",
+		"QuantityOnHand" : "0",
+        "Size" :"Large",
+       "Colour" : "red"
+		
+	},
+    {
+		"NAME" : "Cordless Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "4",
+        "Size" :"Large",
+       "Colour" : "Black"
+		
+	},
+    {
+		"NAME" : "Car Adaptar Vaccums",
+		"Stock" : "Out of Stock",
+		"QuantityOnHand" : "0",
+        "Size" :"Large",
+       "Colour" : "Brown"
+		
+	},
+    {
+		"NAME" : "Central Vaccum System",
+		"Stock" : "Out Of Stock",
+		"QuantityOnHand" : "0",
+        "Size" :"Large",
+       "Colour" : "Green"
+		
+	},
+    {
+		"NAME" : "Circuit Panel",
+		"Stock" : "Available",
+		"QuantityOnHand" : "21",
+        "Size" :"Medium",
+       "Colour" : "Grey"
+		
+	},
+	{
+		"NAME" : "Connectors",
+		"Stock" : "Available",
+		"QuantityOnHand" : "45",
+        "Size" :"Medium",
+       "Colour" : "blue"
+		
+	},
+	
+	{
+		"NAME" : "Circuit Wires",
+		"Stock" : "Available",
+		"QuantityOnHand" : "31",
+        "Size" :"Large",
+       "Colour" : "White"
+		
+	},
+
+    {
+		"NAME" : "Exhaust Pipe",
+		"Stock" : "Out Of Stock",
+		"QuantityOnHand" : "0",
+        "Size" :"Large",
+       "Colour" : "Black"
+		
+	},
+	{
+		"NAME" : "Air Filter",
+		"Stock" : "Available",
+		"QuantityOnHand" : "17",
+        "Size" :"Small",
+       "Colour" : "Brown"
+		
+	},
+	{
+		"NAME" : "Purifier Liquid",
+		"Stock" : "Available",
+		"QuantityOnHand" : "41",
+        "Size" :"Small",
+       "Colour" : "White"
+		
+	},
+	{
+		"NAME" : "Vaccum Stand",
+		"Stock" : "Out Of Stock",
+		"QuantityOnHand" : "0",
+        "Size" :"Medium",
+       "Colour" : "Black"
+		
+	},
+	{
+		"NAME" : "filter pipe",
+		"Stock" : "Available",
+		"QuantityOnHand" : "4",
+        "Size" :"Small",
+       "Colour" : "Red"
+		
+	},
+	{
+		"NAME" : "Vaccum for pets",
+		"Stock" : "Available",
+		"QuantityOnHand" : "5",
+        "Size" :"Large",
+       "Colour" : "Grey"
+		
+	},
+	{
+		"NAME" : "Hand Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "20",
+        "Size" :"Medium",
+       "Colour" : "Green"
+		
+	},
+
+    {
+		"NAME" : "Vaccums for cars",
+		"Stock" : "Out Of Stock",
+		"QuantityOnHand" : "0",
+        "Size" :"Small",
+       "Colour" : "Yellow"
+		
+	},
+	{
+		"NAME" : "Multipurpose Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "7",
+        "Size" :"Medium",
+       "Colour" : "Orange"
+		
+	},
+	{
+		"NAME" : "Commercial Vacums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "10",
+        "Size" :"Large",
+       "Colour" : "Black"
+		
+	},
+	{
+		"NAME" : "Industrial Vaccums",
+		"Stock" : "Out Of Stock",
+		"QuantityOnHand" : "0",
+        "Size" :"Large",
+       "Colour" : "White"
+		
+	},
+	{
+		"NAME" : "Carpet Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "3",
+        "Size" :"Medium",
+       "Colour" : "Red"
+		
+	},
+	{
+		"NAME" : "Wet Vaccums",
+		"Stock" : "Available",
+		"QuantityOnHand" : "2",
+        "Size" :"Medium",
+       "Colour" : "Brown"
+		
+	},
+	{
+		"NAME" : "Filter Bags",
+		"Stock" : "Available",
+		"QuantityOnHand" : "46",
+        "Size" :"Large",
+       "Colour" : "Brown"
+		
+	},
+	{
+		"NAME" : "Filter Vent",
+		"Stock" : "Available",
+		"QuantityOnHand" : "9",
+        "Size" :"Medium",
+       "Colour" : "Black"
+		
+	}
+
+    ]}
